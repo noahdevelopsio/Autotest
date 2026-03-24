@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "scenario": "backpack",
+      "productName": "Sauce Labs Backpack",
+      "expectedPrice": "$29.99"
+    },
+    {
+      "scenario": "bike_light",
+      "productName": "Sauce Labs Bike Light",
+      "expectedPrice": "$9.99"
+    },
+    {
+      "scenario": "bolt_tshirt",
+      "productName": "Sauce Labs Bolt T-Shirt",
+      "expectedPrice": "$15.99"
+    }
+  ],
+  "sortScenarios": [
+    {
+      "scenario": "sort_a_to_z",
+      "sortOption": "az",
+      "expectedFirstProduct": "Sauce Labs Backpack"
+    },
+    {
+      "scenario": "sort_low_to_high",
+      "sortOption": "lohi",
+      "expectedFirstProduct": "Sauce Labs Bike Light"
+    }
+  ]
+}

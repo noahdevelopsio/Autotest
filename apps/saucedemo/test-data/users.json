@@ -1,0 +1,36 @@
+[
+  {
+    "scenario": "valid_standard_user",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectSuccess": true
+  },
+  {
+    "scenario": "locked_out_user",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expectSuccess": false,
+    "expectedError": "locked out"
+  },
+  {
+    "scenario": "wrong_password",
+    "username": "standard_user",
+    "password": "wrongpassword",
+    "expectSuccess": false,
+    "expectedError": "do not match"
+  },
+  {
+    "scenario": "empty_username",
+    "username": "",
+    "password": "secret_sauce",
+    "expectSuccess": false,
+    "expectedError": "Username is required"
+  },
+  {
+    "scenario": "empty_password",
+    "username": "standard_user",
+    "password": "",
+    "expectSuccess": false,
+    "expectedError": "Password is required"
+  }
+]
