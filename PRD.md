@@ -1,6 +1,5 @@
 # Product Requirements Document (PRD)
 ## Project: Resilient, Data-Driven UI Test Automation Framework
-**Author:** Oladeji Oluwalolope Paul | **Student ID:** 22010301053  
 **Version:** 2.0 | **Last Updated:** 2026
 
 ---
