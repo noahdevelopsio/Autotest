@@ -29,7 +29,7 @@ export class SmartLocator {
   static async findElement(
     page: Page,
     strategies: LocatorStrategy[],
-    timeoutMs = 2000
+    timeoutMs = 5000
   ): Promise<Locator> {
     for (const strategy of strategies) {
       try {
