@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "valid_admin",
+    "username": "Admin",
+    "password": "admin123",
+    "expectSuccess": true
+  },
+  {
+    "scenario": "wrong_password",
+    "username": "Admin",
+    "password": "wrongpassword",
+    "expectSuccess": false
+  },
+  {
+    "scenario": "empty_fields",
+    "username": "",
+    "password": "",
+    "expectSuccess": false
+  }
+]
