@@ -1,0 +1,11 @@
+node_modules/
+playwright-report/
+test-results/
+dist/
+.env
+*.env.local
+screenshots/
+
+# Internal planning docs — not for GitHub
+AI_PROMPT.md
+IMPLEMENTATION_PLAN.md

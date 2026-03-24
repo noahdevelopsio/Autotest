@@ -1,0 +1,19 @@
+{
+  "name": "ui-test-framework",
+  "version": "2.0.0",
+  "description": "Resilient, Data-Driven UI Test Automation Framework — Playwright + TypeScript",
+  "author": "Enemali Noah",
+  "scripts": {
+    "test": "playwright test",
+    "test:saucedemo": "playwright test --project=saucedemo",
+    "test:orangehrm": "playwright test --project=orangehrm",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

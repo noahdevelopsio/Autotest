@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@types-local/*": ["types/*"],
+      "@saucedemo/*": ["apps/saucedemo/*"],
+      "@orangehrm/*": ["apps/orangehrm/*"]
+    }
+  },
+  "include": [
+    "core/**/*.ts",
+    "types/**/*.ts",
+    "apps/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
