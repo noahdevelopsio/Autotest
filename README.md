@@ -142,9 +142,4 @@ Nothing in `/core`, `types/`, or `.github/` changes. That is the proof of reusab
 The GitHub Actions pipeline (`.github/workflows/test.yml`) triggers on every push to `main` and every pull request. It installs Node.js 20, runs `npm ci`, installs Playwright browsers with system dependencies, and then executes the full test suite across all projects. After the run — whether passing or failing — the HTML report and raw test results are uploaded as downloadable artifacts. To view them: open the run in GitHub Actions → scroll to **Artifacts** → download `playwright-report`.
 
 ---
-
-## Author
-
-**Oladeji Oluwalolope Paul**  
-Student ID: 22010301053  
 Stack: Playwright · TypeScript · Page Object Model · GitHub Actions
