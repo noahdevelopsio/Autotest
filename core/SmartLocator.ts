@@ -23,7 +23,7 @@ export class SmartLocator {
    *
    * @param page         - Playwright Page object
    * @param strategies   - Ordered array of LocatorStrategy to try
-   * @param timeoutMs    - Per-strategy timeout (default 2000ms)
+   * @param timeoutMs    - Per-strategy timeout (default 5000ms)
    * @throws Error listing every strategy name that was tried if all fail
    */
   static async findElement(
